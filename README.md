@@ -27,7 +27,7 @@ First, download the models for three stages from the following links respectivel
 
 Then execute the following command to extract:
 
-```js
+```
 tar zxvf first_stage_model_final.tar.gz
 tar zxvf second_stage.tar.gz
 tar zxvf third_stage.tar.gz
@@ -41,7 +41,7 @@ python predict.py -i sequenceText.fasta -o record.json --Ecoli True --Saureus Tr
 
 The input of the program is a Fasta file containing stored protein sequences. To facilitate further processing by the computer, the output of the model is a file in JSON format. For more information about parser arguments, please refer to the `predict.py`. Below are explanations for some key parser arguments.
 
-```js
+```
 -i The path of input file
 -o The path of outputfile
 -predSpecie Select whether to predict functional activity against specific bacteria
